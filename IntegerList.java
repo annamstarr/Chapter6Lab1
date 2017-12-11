@@ -59,6 +59,9 @@ public class IntegerList{
             sorted[i] = minIndex;
             minIndex = 0;
         }
+        for (int i=0; i<sorted.length; i++) {
+            System.out.println(i + ":\t" + sorted[i]);
+        }
     }
 
 }
